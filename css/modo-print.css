@@ -1,0 +1,51 @@
+/* Estilo para impresión */
+@import url("general.css");
+
+.titulo h1 {
+	font-family: serif;
+	font-size: 35pt;
+	font-weight: 900;
+	white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+	margin-top: 65px;
+	color: black;
+}
+
+.migas {
+	margin-top: 75px;
+}
+
+.logo, .print, .indice, iframe, figure, .logo-secundario  {
+	display: none;
+}
+
+body {
+	font-size: 12pt; /* Tamaño de fuente para impresión */
+	font-family: serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+}
+
+a {
+	color: black;
+	text-decoration: underline; /* Subraya el texto */
+    font-weight: bold; /* Hace que el texto sea negrita */
+}
+
+body a::after {
+    content: " (" attr(href) ")"; /* Muestra la URL entre paréntesis */
+}
+
+caption, th, td {
+	border: 1px solid black; /* Bordes sólidos en las tablas */
+	color: black;
+}
+
+.texto-pie {
+	margin-top: 200px;
+}
+
+.texto-pie p {
+    color: #eeeeee;
+}

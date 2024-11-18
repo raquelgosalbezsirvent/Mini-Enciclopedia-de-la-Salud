@@ -1,0 +1,70 @@
+/* responsive.css */
+
+@media (min-width: 768px) {
+	.titulo h1{
+		font-size: 3em;
+	}
+	
+	.columnas {
+		max-width: 100%; /* Ancho máximo */
+		margin: 0 auto; /* Centrar el contenedor */
+		display: grid; 
+		grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+		gap: 20px; /* Espacio entre columnas */
+	}
+	
+	.articulo {
+		display: grid;
+		grid-template-columns: 250px 1fr; /* Dos columnas: 250px para el índice y el resto para el contenido */
+		grid-gap: 20px; /* Espacio entre las columnas */
+		padding: 20px;
+	}
+	
+	.articulo-indice, .articulo-descarga {
+		position: sticky; /* Se queda "pegado" cuando se hace scroll */
+		top: 18px; /* Distancia desde la parte superior */
+		background-color: #A5BCE5;
+		padding: 0px;
+		margin-left: 0px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.articulo-descarga {
+		top: 500px; /* Distancia desde la parte superior */
+	}
+	
+	.articulo-indice ol li, .articulo-descarga ol li {
+		font-size: 0.9em;
+		margin-right: 5px;
+	}
+	
+	.articulo-titulo1 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.titulo h1 {
+		font-size: 2em; 
+	}
+	
+	body {
+		font-size: 14px;
+	}
+	
+	iframe {
+		position: relative;
+		overflow: hidden;
+		max-width: 100%;
+	}
+	
+	th, td {
+		font-size: 12px;
+        width: 100%; /* Asegura que cada celda ocupe todo el ancho */
+		word-wrap: break-word; /* Permite que el texto se divida en varias líneas */
+    }
+	
+	.articulo-titulo2 {
+		display: none;
+	}
+}

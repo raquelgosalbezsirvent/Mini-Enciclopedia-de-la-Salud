@@ -1,0 +1,80 @@
+/* Modo Noche */
+@import url("general.css");
+
+header {
+	background-color: #121212;
+}
+
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #E0E0E0; /* Texto claro */
+}
+
+nav, footer {
+    background-color: #1F1F1F; /* Fondo de los contenedores */
+}
+
+nav ul li a {
+    color: #A5BCE5;
+}
+
+nav ul li a:hover,  nav ul li a:focus{
+	color: #A5BCE5; /* Color de hover y focus */
+    background-color: #002851; /* Fondo en hover */
+	outline: #A5BCE5;
+}
+
+a {
+    color: #BB86FC; /* Color de enlace */
+}
+
+a:hover, a:focus {
+    color: #A5BCE5; /* Color de hover y focus */
+    background-color: #002851; /* Fondo en hover */
+	outline: #A5BCE5;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #A5BCE5; /* Títulos en color claro */
+}
+
+.col {
+	background-color: #525e72;
+}
+
+.col h2 {
+	color: #E0E0E0;
+}
+	
+
+.articulo-indice {
+	background-color: #525e72;
+}
+
+.articulo-indice h3 {
+	color: #E0E0E0;
+}
+
+.articulo-indice a {
+	color: #E0E0E0;
+}
+
+table th, table td {
+    background-color: #333333; /* Fondo oscuro para tablas */
+    color: #E0E0E0;
+}
+
+table caption {
+	background-color: #525e72;
+	color: #002851;
+}	
+
+input, textarea, select {
+    background-color: #2C2C2C; /* Fondo oscuro para campos de entrada */
+    color: #E0E0E0; /* Texto claro */
+    border: 1px solid #BB86FC; /* Bordes claros */
+}
+
+.texto-pie p {
+	color: #A5BCE5;
+}

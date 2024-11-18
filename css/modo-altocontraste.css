@@ -1,0 +1,31 @@
+/*modo alto contraste*/
+@import url("general.css");
+
+nav ul li a:hover,  nav ul li a:focus{
+    color: #002851;
+}
+
+a {
+    color: #004F94;
+    text-decoration: none;
+}
+
+th {
+    color: #002851;
+}
+
+.obligatorio {
+	color: #A42D2D;
+}
+
+input[type="submit"] {
+    background-color: #3352B2;
+}
+
+input[type="reset"] {
+	background-color: #A32E2E; 
+}
+
+.texto-pie p {
+    color: #004F94;
+}

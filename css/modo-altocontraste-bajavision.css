@@ -1,0 +1,25 @@
+/* modo alto contraste y baja vision */
+@import url("modo-altocontraste.css");
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.titulo h1 {
+	font-family: 'Atkinson Hyperlegible', serif;
+	font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+body {
+	font-family: 'Atkinson Hyperlegible', serif;
+	font-size: 1.2em;
+}
