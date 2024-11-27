@@ -17,7 +17,7 @@ caption {
 th {
     background-color: #A5BCE5; /* Fondo de la fila de encabezados */
 	border: 1px solid rgba(0, 0, 0, 0.1);
-    color: white; /* Color del texto */
+    color: #002851; /* Color del texto */
 	text-align: center;
 	padding: 10px;
 }
